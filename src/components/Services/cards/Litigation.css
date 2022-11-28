@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Noto+Sans&display=swap');
+
+.litigation-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.legIcon{
+    width: 250px;
+    height: auto;
+    margin: 0px 50px;
+}
+
+.listOne{
+    width: 100%;
+    text-align: right;
+    direction: rtl;
+    list-style-position: outside;
+    margin: 10px 0;
+
+}
+
+.listOne li{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    color: #0A255A;
+}
+
+.listTwo{
+    width: 100%;
+    text-align: left;
+    direction: ltr;
+    list-style-position: outside;
+    margin: 10px 0;
+}
+
+.listTwo li{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    color: #0A255A;
+
+}

@@ -1,0 +1,83 @@
+.loc-head {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    width: 100%;
+    cursor: default;
+}
+
+.loc-head p{
+    margin: 25px 20px;
+    font-size: 34px;
+    text-align: center;
+    width: auto;
+    border-bottom: 3px solid #0A255A;
+    padding-bottom: 5px;
+}
+
+.loc-line{
+    background-color: #0A255A;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+}
+
+.loc-subtitle{
+    margin: 15px 0px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.loc-state{
+    margin: 0px 100px;
+    padding: 25px 50px;
+    background-color: #0A255A;
+    border-radius: 15px;
+}
+
+.loc-state li{
+    list-style-type: none;
+    font-size: 28px;
+    color: white;
+    border-bottom: 3px solid white;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.state-item{
+    white-space: nowrap;
+}
+.state-icon{
+    width: 100%;
+    text-align: right;
+}
+
+.loc-city-visible li{
+    border-bottom: none;
+    font-size: 20px;
+    margin: 2px 25px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.loc-city-visible{
+    padding: 10px 0px;
+    display: flex;
+}
+
+
+.loc-city-hidden{
+    width: 0px;
+    height: 0px;
+    padding-top: 10px;
+    visibility: hidden;
+}
+
+.city-table{
+    width: 250px;
+}
